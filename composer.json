@@ -1,0 +1,41 @@
+{
+    "name": "misteram/image-optimizer",
+    "description": "A responsive image workflow for optimizing and resizing your images",
+    "version": "1.0.0",
+    "keywords": [
+        "responsive images",
+        "respimg",
+        "responsive web design",
+        "rwd",
+        "imagemagick",
+        "imagick",
+        "resize"
+    ],
+    "homepage": "https://github.com/misteram/image-optimizer/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Egor Gerasimchuk",
+            "email": "egor@mister.am"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/misteram/image-optimizer/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-imagick": ">=1.0.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "nwtn\\": "src/",
+            "": "src/"
+        }
+    }
+}
